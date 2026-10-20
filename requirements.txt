@@ -1,0 +1,22 @@
+# ==============================================================================
+# Procedural Keystroke Synth — Production Dependencies
+# Verified on Python 3.14+ (Windows x64)
+# ==============================================================================
+
+# Core Real-Time Audio DSP & Hardware Hook
+sounddevice==0.5.6
+numpy==2.5.4
+pynput==1.8.2
+
+# Cyber-Night GUI Studio & System Tray
+customtkinter==6.0.0
+darkdetect==0.8.0
+pystray==0.19.5
+pillow==12.2.0
+
+# Standalone Packaging (Optional)
+pyinstaller==6.22.3
+
+# Unit & E2E Testing Suite (Development)
+pytest==9.1.1
+pytest-cov==7.1.0
